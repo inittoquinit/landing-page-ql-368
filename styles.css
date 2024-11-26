@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #DBDBDB;
+    color: #3D3D3D;
+    font-family: "Kantumruy Pro";
+    font-size: 28px;
+  }
+  
+  /* navbar */
+  #navbar {
+    /* positioning */
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 173px;
+    /* styling */
+    font-family: 'K2D', sans-serif;
+    font-weight: bold;
+    background-color: #8B8B8B;
+    color: #DBDBDB;
+    border-bottom: 27px solid #C0C0C0;
+  }
+  
+  .wordmark {
+    display: flex;
+  }
+  
+  .logo {
+    margin: 17px 27px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  #navbar header {
+    font-size: 64px;
+  }
+  
+  #navbar header1 {
+    font-size: 20px;
+  }
+  
+  #navbar ul {
+    display: flex;
+  }
+  
+  #navbar li {
+    list-style: none;
+    position: relative;
+    height: 100%;
+    padding: 1.5rem 3rem;
+  }
+  
+  #navbar a {
+    color: #3D3D3D;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  /* navbar end */
+  
+  /* Hero Section */
+  .hero_section {
+    /* positioning */
+    text-align: center;
+    font-family: "Kantumruy Pro";
+    width: 50%;
+    height: auto;
+    margin: 15rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    /* styling */
+    background-color: #C0C0C0;
+    border-radius: 87px;
+    color: #3D3D3D;
+  }
+  
+  .sales_pitch {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 123.098%;
+    padding: 0 3rem;
+  }
+  
+  .italics {
+    font-style: italic;
+  }
+  
+  .splash {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.04px;
+  }
+  
+  .try_it {
+    /* font styling */
+    color: #DBDBDB;
+    font-family: K2D;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    /* button styling */
+    border-radius: 36px;
+    background-color: #3D3D3D;
+    /* positioning */
+    width: 329px;
+    height: 95px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+  }
+  
+  .try_it_link {
+    text-decoration: none;
+    color: #DBDBDB;
+  }
+  /* Hero Section end */
+  
+  /* Main Body */
+  /* Benefits */
+  .benefits {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .benefits_paragraph {
+    width: 50%;
+    margin: 3rem 0;
+  }
+  
+  .benefits_heading {
+    font-family: K2D;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 7rem 15% 2rem 10rem;
+  }
+  
+  .benefits_body {
+    margin: 0 15% 7rem 10rem;
+  }
+  
+  .benefits_image {
+    width: 353px;
+    height: 354px;
+  }
+  /* Benefits End */
+  
+  /* How to Apply */
+  .how_to_apply {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .apply_paragraph {
+    width: 50%;
+    margin: 3rem 0;
+  }
+  
+  .how_to_apply_heading {
+    font-family: K2D;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 10rem 2rem 15%;
+    text-align: right;
+  }
+  
+  .how_to_apply_body {
+    margin: 0 10rem 7rem 15%;
+  }
+  
+  .how_to_apply_image {
+    width: 396px;
+    height: 582px;
+    margin: -7rem 0 0 0;
+  }
+  /* How to Apply End */
+  
+  /* Application Boxes */
+  h1.apply {
+    /* positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* styling */
+    font-size: 32px;
+    color: #DBDBDB;
+    background-color: #3D3D3D;
+    width: 395px;
+    height: 91px;
+    margin: -1px;
+    border-radius: 66px 66px 0 0;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p.apply {
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    line-height: 123.098%;
+    width: 276px;
+    height: 280px;
+  }
+  
+  .apply {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: 395px;
+    height: 525px;
+  }
+  
+  .apply_boxes {
+    display: flex;
+    justify-content: center;
+    margin: 0 25%;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .apply_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 395px;
+    height: 525px;
+    border-radius: 66px;
+    background-color: #F2F2F2;
+  }
+  
+  .apply_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 266px;
+    height: 75px;
+    border-radius: 36px;
+    background: #3D3D3D;
+    margin: 0 0 40px 0;
+    color: #DBDBDB;
+    text-align: center;
+    font-family: K2D;
+    font-size: 32px;
+  }
+  
+  .apply_button_last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 266px;
+    height: 75px;
+    border-radius: 36px;
+    background: #8E8E8E;
+    margin: 0 0 40px 0;
+    color: #DBDBDB;
+    text-align: center;
+    font-family: K2D;
+    font-size: 26px;
+  }
+  
+  .apply_link {
+    text-decoration: none;
+  }
+  /* Application Boxes */
+  
+  /* Video */
+  iframe {
+    display: flex;
+    margin: 6rem auto;
+    width: 939px;
+    height: 522px;
+    border-radius: 66px;
+  }
+  /* Video End */
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 252px;
+    background-color: #8B8B8B;
+    bottom: 0;
+    left: 0;
+    border-top: 27px solid #C0C0C0;
+  }
+  
+  .link_div {
+    /* Positioning */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 40rem;
+    margin: 0 3rem;
+    /* Styling */
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .footer_link_email {
+    font-weight: 300;
+  }
+  
+  .social_icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    background-color: #DBDBDB;
+  }
+  
+  .email_input {
+    width: 240px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #DBDBDB;
+    color: #AAA;
+    font-family: K2D;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  /* Footer End */
